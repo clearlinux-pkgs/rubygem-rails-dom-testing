@@ -1,0 +1,1 @@
+pushd %{buildroot}%{gem_dir}/gems/rails-dom-testing-1.0.6  && sed -i "/\.test_order/ s/^/#/" test/test_helper.rb && ruby -Ilib:test -e 'Dir.glob "./test/**/*_test.rb", &method(:require)' && popd
