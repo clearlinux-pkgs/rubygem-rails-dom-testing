@@ -4,7 +4,7 @@
 #
 Name     : rubygem-rails-dom-testing
 Version  : 1.0.6
-Release  : 7
+Release  : 8
 URL      : https://rubygems.org/downloads/rails-dom-testing-1.0.6.gem
 Source0  : https://rubygems.org/downloads/rails-dom-testing-1.0.6.gem
 Summary  : No detailed summary available
