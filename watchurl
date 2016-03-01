@@ -1,0 +1,4 @@
+# File auto-generated with 'Watchfile generator'
+# 2016-03-01 17:06:03.559403
+# {'>=0', '~>1.0', 'development', '>=1.0.5'}
+watchurl=https://rubygems.org/gems/rails-dom-testing/versions/([0-1]\.[0-9]{1,2}(\.[0-9]{1,2})?)
