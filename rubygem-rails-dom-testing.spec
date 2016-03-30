@@ -4,7 +4,7 @@
 #
 Name     : rubygem-rails-dom-testing
 Version  : 1.0.7
-Release  : 9
+Release  : 10
 URL      : https://rubygems.org/downloads/rails-dom-testing-1.0.7.gem
 Source0  : https://rubygems.org/downloads/rails-dom-testing-1.0.7.gem
 Summary  : No detailed summary available
@@ -58,59 +58,20 @@ pushd %{buildroot}%{gem_dir}/gems/rails-dom-testing-1.0.6  && sed -i "/\.test_or
 
 %files
 %defattr(-,root,root,-)
-/usr/lib64/ruby/gems/2.2.0/cache/rails-dom-testing-1.0.7.gem
-/usr/lib64/ruby/gems/2.2.0/doc/rails-dom-testing-1.0.7/ri/HTMLSelector/cdesc-HTMLSelector.ri
-/usr/lib64/ruby/gems/2.2.0/doc/rails-dom-testing-1.0.7/ri/Rails/Dom/Testing/Assertions/DomAssertions/assert_dom_equal-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/rails-dom-testing-1.0.7/ri/Rails/Dom/Testing/Assertions/DomAssertions/assert_dom_not_equal-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/rails-dom-testing-1.0.7/ri/Rails/Dom/Testing/Assertions/DomAssertions/cdesc-DomAssertions.ri
-/usr/lib64/ruby/gems/2.2.0/doc/rails-dom-testing-1.0.7/ri/Rails/Dom/Testing/Assertions/DomAssertions/compare_doms-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/rails-dom-testing-1.0.7/ri/Rails/Dom/Testing/Assertions/DomAssertions/equal_attribute%3f-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/rails-dom-testing-1.0.7/ri/Rails/Dom/Testing/Assertions/DomAssertions/equal_attribute_nodes%3f-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/rails-dom-testing-1.0.7/ri/Rails/Dom/Testing/Assertions/DomAssertions/equal_children%3f-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/rails-dom-testing-1.0.7/ri/Rails/Dom/Testing/Assertions/DomAssertions/fragment-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/rails-dom-testing-1.0.7/ri/Rails/Dom/Testing/Assertions/SelectorAssertions/CountDescribable/cdesc-CountDescribable.ri
-/usr/lib64/ruby/gems/2.2.0/doc/rails-dom-testing-1.0.7/ri/Rails/Dom/Testing/Assertions/SelectorAssertions/CountDescribable/pluralize_element-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/rails-dom-testing-1.0.7/ri/Rails/Dom/Testing/Assertions/SelectorAssertions/assert_select-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/rails-dom-testing-1.0.7/ri/Rails/Dom/Testing/Assertions/SelectorAssertions/assert_select_email-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/rails-dom-testing-1.0.7/ri/Rails/Dom/Testing/Assertions/SelectorAssertions/assert_select_encoded-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/rails-dom-testing-1.0.7/ri/Rails/Dom/Testing/Assertions/SelectorAssertions/assert_size_match%21-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/rails-dom-testing-1.0.7/ri/Rails/Dom/Testing/Assertions/SelectorAssertions/cdesc-SelectorAssertions.ri
-/usr/lib64/ruby/gems/2.2.0/doc/rails-dom-testing-1.0.7/ri/Rails/Dom/Testing/Assertions/SelectorAssertions/css_select-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/rails-dom-testing-1.0.7/ri/Rails/Dom/Testing/Assertions/SelectorAssertions/document_root_element-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/rails-dom-testing-1.0.7/ri/Rails/Dom/Testing/Assertions/SelectorAssertions/nest_selection-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/rails-dom-testing-1.0.7/ri/Rails/Dom/Testing/Assertions/SelectorAssertions/nodeset-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/rails-dom-testing-1.0.7/ri/Rails/Dom/Testing/Assertions/SelectorAssertions/selecting_no_body%3f-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/rails-dom-testing-1.0.7/ri/Rails/Dom/Testing/Assertions/TagAssertions/_find_tag-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/rails-dom-testing-1.0.7/ri/Rails/Dom/Testing/Assertions/TagAssertions/assert_no_tag-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/rails-dom-testing-1.0.7/ri/Rails/Dom/Testing/Assertions/TagAssertions/assert_tag-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/rails-dom-testing-1.0.7/ri/Rails/Dom/Testing/Assertions/TagAssertions/cdesc-TagAssertions.ri
-/usr/lib64/ruby/gems/2.2.0/doc/rails-dom-testing-1.0.7/ri/Rails/Dom/Testing/Assertions/TagAssertions/find_all_tag-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/rails-dom-testing-1.0.7/ri/Rails/Dom/Testing/Assertions/TagAssertions/find_tag-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/rails-dom-testing-1.0.7/ri/Rails/Dom/Testing/Assertions/TagAssertions/html_scanner_document-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/rails-dom-testing-1.0.7/ri/Rails/Dom/Testing/Assertions/cdesc-Assertions.ri
-/usr/lib64/ruby/gems/2.2.0/doc/rails-dom-testing-1.0.7/ri/Rails/Dom/Testing/cdesc-Testing.ri
-/usr/lib64/ruby/gems/2.2.0/doc/rails-dom-testing-1.0.7/ri/Rails/Dom/cdesc-Dom.ri
-/usr/lib64/ruby/gems/2.2.0/doc/rails-dom-testing-1.0.7/ri/Rails/cdesc-Rails.ri
-/usr/lib64/ruby/gems/2.2.0/doc/rails-dom-testing-1.0.7/ri/SubstitutionContext/cdesc-SubstitutionContext.ri
-/usr/lib64/ruby/gems/2.2.0/doc/rails-dom-testing-1.0.7/ri/SubstitutionContext/match-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/rails-dom-testing-1.0.7/ri/SubstitutionContext/matcher_for-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/rails-dom-testing-1.0.7/ri/SubstitutionContext/new-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/rails-dom-testing-1.0.7/ri/SubstitutionContext/substitutable%3f-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/rails-dom-testing-1.0.7/ri/SubstitutionContext/substitute%21-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/rails-dom-testing-1.0.7/ri/cache.ri
-/usr/lib64/ruby/gems/2.2.0/gems/rails-dom-testing-1.0.7/LICENSE.txt
-/usr/lib64/ruby/gems/2.2.0/gems/rails-dom-testing-1.0.7/README.md
-/usr/lib64/ruby/gems/2.2.0/gems/rails-dom-testing-1.0.7/lib/rails-dom-testing.rb
-/usr/lib64/ruby/gems/2.2.0/gems/rails-dom-testing-1.0.7/lib/rails/dom/testing/assertions.rb
-/usr/lib64/ruby/gems/2.2.0/gems/rails-dom-testing-1.0.7/lib/rails/dom/testing/assertions/dom_assertions.rb
-/usr/lib64/ruby/gems/2.2.0/gems/rails-dom-testing-1.0.7/lib/rails/dom/testing/assertions/selector_assertions.rb
-/usr/lib64/ruby/gems/2.2.0/gems/rails-dom-testing-1.0.7/lib/rails/dom/testing/assertions/selector_assertions/count_describable.rb
-/usr/lib64/ruby/gems/2.2.0/gems/rails-dom-testing-1.0.7/lib/rails/dom/testing/assertions/selector_assertions/html_selector.rb
-/usr/lib64/ruby/gems/2.2.0/gems/rails-dom-testing-1.0.7/lib/rails/dom/testing/assertions/selector_assertions/substitution_context.rb
-/usr/lib64/ruby/gems/2.2.0/gems/rails-dom-testing-1.0.7/lib/rails/dom/testing/assertions/tag_assertions.rb
-/usr/lib64/ruby/gems/2.2.0/gems/rails-dom-testing-1.0.7/lib/rails/dom/testing/version.rb
-/usr/lib64/ruby/gems/2.2.0/gems/rails-dom-testing-1.0.7/test/dom_assertions_test.rb
-/usr/lib64/ruby/gems/2.2.0/gems/rails-dom-testing-1.0.7/test/selector_assertions_test.rb
-/usr/lib64/ruby/gems/2.2.0/gems/rails-dom-testing-1.0.7/test/tag_assertions_test.rb
-/usr/lib64/ruby/gems/2.2.0/gems/rails-dom-testing-1.0.7/test/test_helper.rb
-/usr/lib64/ruby/gems/2.2.0/specifications/rails-dom-testing-1.0.7.gemspec
+/usr/lib64/ruby/gems/2.3.0/cache/rails-dom-testing-1.0.7.gem
+/usr/lib64/ruby/gems/2.3.0/gems/rails-dom-testing-1.0.7/LICENSE.txt
+/usr/lib64/ruby/gems/2.3.0/gems/rails-dom-testing-1.0.7/README.md
+/usr/lib64/ruby/gems/2.3.0/gems/rails-dom-testing-1.0.7/lib/rails-dom-testing.rb
+/usr/lib64/ruby/gems/2.3.0/gems/rails-dom-testing-1.0.7/lib/rails/dom/testing/assertions.rb
+/usr/lib64/ruby/gems/2.3.0/gems/rails-dom-testing-1.0.7/lib/rails/dom/testing/assertions/dom_assertions.rb
+/usr/lib64/ruby/gems/2.3.0/gems/rails-dom-testing-1.0.7/lib/rails/dom/testing/assertions/selector_assertions.rb
+/usr/lib64/ruby/gems/2.3.0/gems/rails-dom-testing-1.0.7/lib/rails/dom/testing/assertions/selector_assertions/count_describable.rb
+/usr/lib64/ruby/gems/2.3.0/gems/rails-dom-testing-1.0.7/lib/rails/dom/testing/assertions/selector_assertions/html_selector.rb
+/usr/lib64/ruby/gems/2.3.0/gems/rails-dom-testing-1.0.7/lib/rails/dom/testing/assertions/selector_assertions/substitution_context.rb
+/usr/lib64/ruby/gems/2.3.0/gems/rails-dom-testing-1.0.7/lib/rails/dom/testing/assertions/tag_assertions.rb
+/usr/lib64/ruby/gems/2.3.0/gems/rails-dom-testing-1.0.7/lib/rails/dom/testing/version.rb
+/usr/lib64/ruby/gems/2.3.0/gems/rails-dom-testing-1.0.7/test/dom_assertions_test.rb
+/usr/lib64/ruby/gems/2.3.0/gems/rails-dom-testing-1.0.7/test/selector_assertions_test.rb
+/usr/lib64/ruby/gems/2.3.0/gems/rails-dom-testing-1.0.7/test/tag_assertions_test.rb
+/usr/lib64/ruby/gems/2.3.0/gems/rails-dom-testing-1.0.7/test/test_helper.rb
+/usr/lib64/ruby/gems/2.3.0/specifications/rails-dom-testing-1.0.7.gemspec
